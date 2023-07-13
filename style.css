@@ -39,12 +39,12 @@
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
+/* .card:hover .servicesIcon {
     color: #008000;
 }
 .servicesText:hover {
     border: 1px solid #008000;
-}
+} */
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
     background-color: black;
