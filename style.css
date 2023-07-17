@@ -1,16 +1,53 @@
 /* hero background image */
-.bgimage {
+/* .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpg');
+    /* background: url('images/heroImage.jpg'); 
     background-size:cover;
     position:relative;
+} */
+
+
+.hero {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url('images/heroImage.jpg');
+    position: relative;
+    width: 100%;
 }
+.hero-text h1 {
+    color: #2d2e32;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-text p {
+    color: #555;
+    font-family: Mulish,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    color: #2d2e32;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
+
 .hero_desc {
-    font-size: 2rem;
+    color: #555;
+    font-family: Mulish,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6
 }
 .hero-text {
     text-align: center;
@@ -19,6 +56,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.hero-img {
+    -webkit-animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/images/my-pic.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 35rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    width: 35rem;
 }
 
 /* about section image css */
@@ -38,6 +89,7 @@
 }
 .card-title {
     text-align: center;
+   /* background-color: #808080;*/
 }
 /* .card:hover .servicesIcon {
     color: #008000;
@@ -50,9 +102,8 @@
     background-color: black;
 }
 
-.navLink-text{
-color: aliceblue;
-}
+
+
 
 /* social media icons styling */
 .social-icons {
@@ -77,4 +128,10 @@ color: aliceblue;
 }
 #contact {
     padding-bottom: 4rem;
+}
+
+.header_text{
+    background-color: brown;
+    color: antiquewhite; 
+    text-align: center;
 }
